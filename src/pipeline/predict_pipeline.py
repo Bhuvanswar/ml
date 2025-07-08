@@ -11,17 +11,8 @@ class PredictPipeline:
 
     def predict(self,features):
         try:
-            # model_path=r"model.pkl"
-            # preprocessor_path=r'proprocessor.pkl'
-            # print("Before Loading")
-            # model=load_object(file_path=model_path)
-            # preprocessor=load_object(file_path=preprocessor_path)
-            # print("After Loading")
-            # data_scaled=preprocessor.transform(features)
-            # preds=model.predict(data_scaled)
-            # return preds
-            model_path = r"C:\Users\bhuva\OneDrive\Desktop\learn\python\ml\artifacts\model.pkl"
-            preprocessor_path = r"C:\Users\bhuva\OneDrive\Desktop\learn\python\ml\artifacts\proprocessor.pkl"
+            model_path =r"C:\Users\bhuva\OneDrive\Desktop\learn\python\ml\artifacts\model.pkl"
+            preprocessor_path =r'c:\Users\bhuva\OneDrive\Desktop\learn\python\ml\artifacts\proprocessor.pkl'
             print("Before Loading")
             model = load_object(file_path=model_path)
             preprocessor = load_object(file_path=preprocessor_path)
